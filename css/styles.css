@@ -71,6 +71,10 @@ section {
   margin-bottom: 0;
 }
 
+.navbar-toggler-icon {
+  background-color: var(--color-content-text); /* Change this to your desired color */
+}
+
 .card {
   margin-bottom: 25px;
   background-color: var(--color-foreground);
@@ -93,6 +97,14 @@ footer {
 img, video {
   border: 2px solid #3b3e41;
   border-radius: 5px;
+}
+
+a {
+  color: var(--color-link-text);
+}
+
+a:hover {
+  color: var(--color-link-text-hover);
 }
 
 /* Ensure the rows and columns are flex containers */
