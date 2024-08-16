@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Summit - Gyms Map</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <style>
+        @font-face {
+        font-family: 'footer';
+        src: url('../assets/fonts/day_roman/dayroman.ttf') format('truetype');
+        }
+
+        @font-face {
+            font-family: 'buttons';
+            src: url('../assets/fonts/nexa_rust_sans/nexarustsans.ttf') format('truetype');
+        }
+
+        :root {
+        --font-footer: 'footer', Arial, sans-serif;
+        --font-title: 'title', Arial, sans-serif;
+        --font-content: 'content', Arial, sans-serif; 
+        --font-buttons: 'buttons', Arial, sans-serif;
+        
+        /* Custom color palette */
+        --color-background: #F9F9F9; /* Page Main Background */
+        --color-foreground: #FFFFFF; /* Page Foreground */
+        --color-footer: #262626; /* Page Footer */
+        --color-link-text: #2E2E2E; /* Link Text */
+        --color-link-text-hover: #4A4A4A; /* Link Text Hover */
+        --color-content-text: #262626; /* Content Text */
+        --color-title-text: #000000; /* Title Text */
+        }
+
+        #map {
+            height: 100vh;
+            width: 100%;
+        }
+
+        .marker-popup {
+            font-size: 14px;
+        }
+
+        html {
+            overflow: hidden;
+        }
+
+        li {
+            list-style-type: none;
+            margin-left: -2rem;
+        }
+
+        html, body {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+        }
+
+        .sidebar {
+            position: fixed;
+            width: 12rem;
+            height: 15vh;
+            background-color: var(--color-foreground);
+            font-family: var(--font-buttons);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding-top: 20px;
+            z-index: 1000;
+            bottom: 0;
+            border-top-right-radius: 20px;
+        }
+
+        .sidebar .nav-link {
+            color: var(--color-link-text);
+            margin-bottom: 10px;
+        }
+
+        .sidebar .nav-link:hover {
+            color: var(--color-link-text-hover);
+        }
+
+        @media (max-width: 768px) {
+            .sidebar {
+                width: 100%;
+                height: auto;
+                padding-top: 10px;
+                flex-direction: row;
+                justify-content: space-around;
+                border-top-right-radius: 0;
+            }
+
+            .sidebar .nav-link {
+                margin-bottom: 0;
+                font-size: 14px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .sidebar {
+                height: 10vh;
+                padding-top: 5px;
+            }
+
+            .sidebar .nav-link {
+                font-size: 12px;
+            }
+        }
+
+        #logo {
+        border: 2px solid #3b3e41;
+        border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <nav class="col-md-2 bg-dark sidebar">
+        <a class="navbar-brand" href="index.html">
+            <img id="logo" src="assets/imgs/logo.png" class="img-fluid mb-4" alt="Logo">
+        </a>
+        <ul class="navbar-nav">
+            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+            <li class="nav-item"><a class="nav-link" href="map.html">Gyms Map</a></li>
+        </ul>
+
+    </nav>
+    <div id="map"></div>
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script src="js/data.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
