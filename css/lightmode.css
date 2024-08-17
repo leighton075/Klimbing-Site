@@ -1,0 +1,220 @@
+/* Font-face definitions */
+@font-face {
+  font-family: 'footer';
+  src: url('../assets/fonts/day_roman/dayroman.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'title';
+  src: url('../assets/fonts/blue_cashews/Blue_Cashews.otf') format('truetype');
+}
+
+@font-face {
+  font-family: 'content';
+  src: url('../assets/fonts/modestic_sans/modesticsans.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'buttons';
+  src: url('../assets/fonts/nexa_rust_sans/nexarustsans.ttf') format('truetype');
+}
+
+/* CSS Variables for fonts and colors */
+:root {
+  --font-footer: 'footer', Arial, sans-serif;
+  --font-title: 'title', Arial, sans-serif;
+  --font-content: 'content', Arial, sans-serif; 
+  --font-buttons: 'buttons', Arial, sans-serif;
+  
+  /* Custom color palette */
+  --color-background: #F9F9F9; /* Page Main Background */
+  --color-foreground: #FFFFFF; /* Page Foreground */
+  --color-footer: #262626; /* Page Footer */
+  --color-link-text: #2E2E2E; /* Link Text */
+  --color-link-text-hover: #4A4A4A; /* Link Text Hover */
+  --color-content-text: #262626; /* Content Text */
+  --color-title-text: #000000; /* Title Text */
+}
+
+/* Navbar adjustments */
+.navbar {
+  padding: 0.5rem 1rem;
+  z-index: 1050; /* Ensure it stays on top of other content */
+  background-color: var(--color-background); /* Background color of navbar */
+  font-family: var(--font-buttons);
+}
+
+/* Adjust the main content to accommodate the fixed navbar */
+main {
+  margin-top: 100px; /* Increased this value to ensure header doesn't overlap with the navbar */
+  font-family: var(--font-main);
+  background-color: var(--color-background);
+}
+
+header {
+  margin-top: 20px; /* Add padding to move the header down */
+  font-family: var(--font-title);
+  background-color: var(--color-background); /* Keep background color to blend with the navbar */
+  color: var(--color-title-text);
+  margin-bottom: -10vh;
+}
+
+h2 {
+  padding: 10px;
+  font-family: var(--font-buttons);
+  color: var(--color-content-text);
+}
+
+/* Section and card styles */
+section {
+  padding: 10px;
+  margin-bottom: 0;
+}
+
+.navbar-toggler-icon {
+  background-color: var(--color-content-text); /* Change this to your desired color */
+}
+
+.card {
+  margin-bottom: 25px;
+  background-color: var(--color-foreground);
+  color: var(--color-content-text);
+}
+
+/* Footer styles */
+footer {
+  background-color: var(--color-foreground);
+  color: var(--font-footer);
+  text-align: center;
+  font-family: var(--font-footer);
+  font-size: 70%;
+  width: 100%;
+  padding: 10px;
+  bottom: 0;
+}
+
+/* Image and video border styles */
+img, video {
+  border: 2px solid #3b3e41;
+  border-radius: 5px;
+}
+
+a {
+  color: var(--color-link-text);
+}
+
+a:hover {
+  color: var(--color-link-text-hover);
+}
+
+.dropdown-item {
+  font-family: var(--font-content);
+}
+
+td {
+  border: 1px solid var(--color-title-text);
+  width: auto;
+}
+
+th {
+  padding: 10px;
+  border: 1px solid var(--color-title-text);
+  width: auto;
+}
+
+table {
+  width: 100%;
+  text-align: center;
+}
+
+.stats {
+  height: 100%;
+}
+
+.profilepic {
+  height: 100%;
+}
+
+/* Ensure the rows and columns are flex containers */
+.row.g-4 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col-md-6 {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Match the height of the text card and image */
+.mainpagecard {
+  display: flex;
+  flex-grow: 1;
+  justify-content: center;
+  align-items: center;
+}
+
+.homepageimg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border: 2px solid #3b3e41;
+  border-radius: 5px;
+}
+
+.card {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.card img {
+  flex-grow: 1;
+  object-fit: cover;
+  width: 100%;
+}
+
+.card p {
+  padding-left: 20px;
+  padding-right: 20px;
+  font-family: var(--font-content);
+}
+
+/* Responsive adjustments */
+@media (max-width: 767.98px) {
+  .row.g-4 {
+      flex-direction: column;
+  }
+
+  header h1 {
+      font-size: 24px;
+  }
+
+  header p {
+      font-size: 12px;
+  }
+
+  footer {
+      font-size: 50%;
+  }
+}
+
+/* Link styles in the navbar */
+.navbar-nav .nav-link {
+  color: var(--color-link-text);
+  margin-bottom: 10px;
+}
+
+.navbar-nav .nav-link:hover {
+  color: var(--color-link-text-hover);
+}
+
+/* Hide scrollbar in HTML */
+html::-webkit-scrollbar {
+  display: none;
+}
+
+html {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}

@@ -27,13 +27,13 @@
   --font-buttons: 'buttons', Arial, sans-serif;
   
   /* Custom color palette */
-  --color-background: #F9F9F9; /* Page Main Background */
-  --color-foreground: #FFFFFF; /* Page Foreground */
+  --color-background: #131313; /* Page Main Background */
+  --color-foreground: #262626; /* Page Foreground */
   --color-footer: #262626; /* Page Footer */
-  --color-link-text: #2E2E2E; /* Link Text */
+  --color-link-text: #6d6d6d; /* Link Text */
   --color-link-text-hover: #4A4A4A; /* Link Text Hover */
-  --color-content-text: #262626; /* Content Text */
-  --color-title-text: #000000; /* Title Text */
+  --color-content-text: #F9F9F9; /* Content Text */
+  --color-title-text: #FFFFFF; /* Title Text */
 }
 
 /* Navbar adjustments */
@@ -95,7 +95,7 @@ footer {
 
 /* Image and video border styles */
 img, video {
-  border: 2px solid #3b3e41;
+  border: 2px solid #e2e2e2;
   border-radius: 5px;
 }
 
@@ -105,6 +105,42 @@ a {
 
 a:hover {
   color: var(--color-link-text-hover);
+}
+
+.dropdown-item {
+  font-family: var(--font-content);
+}
+
+td {
+  border: 1px solid var(--color-title-text);
+  width: auto;
+}
+
+th {
+  padding: 10px;
+  border: 1px solid var(--color-title-text);
+  width: auto;
+}
+
+table {
+  width: 100%;
+  text-align: center;
+}
+
+.nav-link {
+  color: var(--color-content-text);
+}
+
+.nav-link:hover{
+  color: var(--color-title-text)
+}
+
+.stats {
+  height: 100%;
+}
+
+.profilepic {
+  height: 100%;
 }
 
 /* Ensure the rows and columns are flex containers */
@@ -130,7 +166,7 @@ a:hover {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  border: 2px solid #3b3e41;
+  border: 2px solid #999999;
   border-radius: 5px;
 }
 
