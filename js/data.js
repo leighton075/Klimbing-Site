@@ -192,12 +192,6 @@ const locations = [
     title: "Vertigo Climbing Ohakune"
   },
   {
-    latitude: -37.7907514,
-    longitude: 175.2601431,
-    url: "https://www.google.com/maps/search/?api=1&query=Indoor%20Rock%20Climbing&query_place_id=ChIJ5SqbHhsibW0RXq933yp4g1M",
-    title: "Indoor Rock Climbing"
-  },
-  {
     latitude: -38.1381874,
     longitude: 176.2524566,
     url: "https://www.google.com/maps/search/?api=1&query=The%20Wall%20and%20Basement%20Cinema&query_place_id=ChIJ50M4YXwnbG0RyEnFTkehik0",

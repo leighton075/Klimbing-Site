@@ -1,0 +1,370 @@
+Folder PATH listing
+Volume serial number is BEF3-EEBF
+C:.
+¦   .gitattributes
+¦   gallery.html
+¦   index.html
+¦   map.html
+¦   README.md
+¦   tree.txt
+¦   
++---.git
+¦   ¦   COMMIT_EDITMSG
+¦   ¦   config
+¦   ¦   description
+¦   ¦   FETCH_HEAD
+¦   ¦   HEAD
+¦   ¦   index
+¦   ¦   ORIG_HEAD
+¦   ¦   
+¦   +---hooks
+¦   ¦       applypatch-msg.sample
+¦   ¦       commit-msg.sample
+¦   ¦       fsmonitor-watchman.sample
+¦   ¦       post-update.sample
+¦   ¦       pre-applypatch.sample
+¦   ¦       pre-commit.sample
+¦   ¦       pre-merge-commit.sample
+¦   ¦       pre-push.sample
+¦   ¦       pre-rebase.sample
+¦   ¦       pre-receive.sample
+¦   ¦       prepare-commit-msg.sample
+¦   ¦       push-to-checkout.sample
+¦   ¦       sendemail-validate.sample
+¦   ¦       update.sample
+¦   ¦       
+¦   +---info
+¦   ¦       exclude
+¦   ¦       
+¦   +---logs
+¦   ¦   ¦   HEAD
+¦   ¦   ¦   
+¦   ¦   +---refs
+¦   ¦       +---heads
+¦   ¦       ¦       main
+¦   ¦       ¦       
+¦   ¦       +---remotes
+¦   ¦           +---origin
+¦   ¦                   HEAD
+¦   ¦                   main
+¦   ¦                   
+¦   +---objects
+¦   ¦   +---02
+¦   ¦   ¦       81996e202acca93f76063d92c73af84fc1bcc6
+¦   ¦   ¦       
+¦   ¦   +---06
+¦   ¦   ¦       50cdd8c37b1082a8cebaffc7d74570c1c303f5
+¦   ¦   ¦       
+¦   ¦   +---0c
+¦   ¦   ¦       3db51a5f1d9d29d06d45ccdcf40e3d9c359805
+¦   ¦   ¦       
+¦   ¦   +---13
+¦   ¦   ¦       58bff7b89300c7974a700b23258c0acf8b61c7
+¦   ¦   ¦       
+¦   ¦   +---16
+¦   ¦   ¦       25ca57205bbacda2681126e902e91d11cc444e
+¦   ¦   ¦       
+¦   ¦   +---17
+¦   ¦   ¦       3c464b4b8e665d90d43828e92363384dc2fc97
+¦   ¦   ¦       
+¦   ¦   +---1a
+¦   ¦   ¦       1c82d033ea64699be2e8ab5990589ddc0a90b4
+¦   ¦   ¦       
+¦   ¦   +---1d
+¦   ¦   ¦       7f812a3de9eb409ba3ea1108890f63209c2b10
+¦   ¦   ¦       ebd8ac5581a1d4df67e8c91ef42e274312b1d8
+¦   ¦   ¦       
+¦   ¦   +---1e
+¦   ¦   ¦       34a71da895f5501ab69a78aba137bcb85bfde1
+¦   ¦   ¦       
+¦   ¦   +---23
+¦   ¦   ¦       5ca085340374c9f0ec4a3a6b8ae428b164c0de
+¦   ¦   ¦       
+¦   ¦   +---26
+¦   ¦   ¦       7f86ed8a73e94642b5c8d82647d4d7cd2fb67f
+¦   ¦   ¦       
+¦   ¦   +---2b
+¦   ¦   ¦       54560f2801f5f1a6afcfa9cc9a9528476c371e
+¦   ¦   ¦       
+¦   ¦   +---2c
+¦   ¦   ¦       3252b36966ba90b47c25fe367f283de44352ef
+¦   ¦   ¦       
+¦   ¦   +---2d
+¦   ¦   ¦       415aaecdfc4e3cae403e76761996b5ce143b2b
+¦   ¦   ¦       b162e262a7e9d759f60a2b0ee71afe092fda07
+¦   ¦   ¦       
+¦   ¦   +---2e
+¦   ¦   ¦       6c2f19587c815d818c1a74a597d3b63835917d
+¦   ¦   ¦       
+¦   ¦   +---2f
+¦   ¦   ¦       3fb138de9c911c7a3c8f53bb090254d7fdc6b6
+¦   ¦   ¦       
+¦   ¦   +---33
+¦   ¦   ¦       900548d61cdeb9f84f3a4ea211d6c5bbe46d64
+¦   ¦   ¦       
+¦   ¦   +---3a
+¦   ¦   ¦       c298dd0712d056ce1d99776c8144e16d22f427
+¦   ¦   ¦       
+¦   ¦   +---41
+¦   ¦   ¦       fc95ca9f9f690bda9d636fc54682c82b7c725c
+¦   ¦   ¦       
+¦   ¦   +---48
+¦   ¦   ¦       4983334cde2a8ae19fca9bcdcd2362671ec01b
+¦   ¦   ¦       
+¦   ¦   +---49
+¦   ¦   ¦       63792b1fb66c2aeb86f2d653b3e105ccfec718
+¦   ¦   ¦       
+¦   ¦   +---4a
+¦   ¦   ¦       12a83291a514f0af80ae45aa4cd921f7fb794e
+¦   ¦   ¦       
+¦   ¦   +---53
+¦   ¦   ¦       19d68bc5694fffc508d1045bb6fa78c0bca5d6
+¦   ¦   ¦       f19ba6517c59f43c0399ea69ee34da8af31e0e
+¦   ¦   ¦       
+¦   ¦   +---58
+¦   ¦   ¦       dda1dba2298c5d094b362b07ff85d9421ea9af
+¦   ¦   ¦       
+¦   ¦   +---5a
+¦   ¦   ¦       c40514d8cedeb38b454604982793cceca0590e
+¦   ¦   ¦       
+¦   ¦   +---5b
+¦   ¦   ¦       5baabee26d93972c326d16dde48864d457aaf7
+¦   ¦   ¦       
+¦   ¦   +---5c
+¦   ¦   ¦       98aaefb3f034084719153c21fe666880510891
+¦   ¦   ¦       
+¦   ¦   +---5d
+¦   ¦   ¦       c8e51c24031f487e3787fc2c1a8e4058b13533
+¦   ¦   ¦       
+¦   ¦   +---61
+¦   ¦   ¦       34d38eb97d5f3fe72384b4dc5971ca64a26743
+¦   ¦   ¦       
+¦   ¦   +---62
+¦   ¦   ¦       78cd7c4bf4774b174f52796df127fc7e7f309f
+¦   ¦   ¦       
+¦   ¦   +---66
+¦   ¦   ¦       3b7899a099df9ef120419c4d0f0b6cbeb20aa8
+¦   ¦   ¦       a1e473b8706b0a198af26ecb2112ba41b3a393
+¦   ¦   ¦       
+¦   ¦   +---67
+¦   ¦   ¦       6714fa667d0f4b5db9fdd5a76d46d1b4bb71fe
+¦   ¦   ¦       
+¦   ¦   +---68
+¦   ¦   ¦       a7008b110d613f77837016fd5b1bc145874392
+¦   ¦   ¦       
+¦   ¦   +---6d
+¦   ¦   ¦       c52cd1860e5de0f77583fd8eace9148548fb2c
+¦   ¦   ¦       
+¦   ¦   +---6f
+¦   ¦   ¦       0fed6a272d837674ad517027e648e7e3d0503b
+¦   ¦   ¦       
+¦   ¦   +---72
+¦   ¦   ¦       9cde7f21b8be08c9da8f531051375ad2a0b5ac
+¦   ¦   ¦       
+¦   ¦   +---74
+¦   ¦   ¦       63c84b4697c1e09de5437d54483e1f3127da5e
+¦   ¦   ¦       72a879188f96ef4ee8a47b89e5b44152b16027
+¦   ¦   ¦       
+¦   ¦   +---7a
+¦   ¦   ¦       47cfb526d75ea9d6c24a570582f824f6a98f61
+¦   ¦   ¦       
+¦   ¦   +---82
+¦   ¦   ¦       ba0ba13b99024c1ee86ffd84d7809b72232104
+¦   ¦   ¦       
+¦   ¦   +---8b
+¦   ¦   ¦       74277361b58e0e81a7b7b94c9c039c16a7ea78
+¦   ¦   ¦       
+¦   ¦   +---8f
+¦   ¦   ¦       a2947a510a4a66517920bc1b21d96cb789efd5
+¦   ¦   ¦       
+¦   ¦   +---94
+¦   ¦   ¦       f55108597208d7a522ca805f1ba4c018ff63c8
+¦   ¦   ¦       
+¦   ¦   +---97
+¦   ¦   ¦       0b2ab6b3a065640d6386da394839f727c23e01
+¦   ¦   ¦       d3c77a12b3f635e584c9e0481f8a7e87be1708
+¦   ¦   ¦       
+¦   ¦   +---9b
+¦   ¦   ¦       590e06bca8618419562a92aea07629d456e236
+¦   ¦   ¦       a9127d46cf1f93ee4b54e73361bbc5009bc60d
+¦   ¦   ¦       
+¦   ¦   +---9f
+¦   ¦   ¦       852a40185b044b3b9a4a58e2530afabbd88aca
+¦   ¦   ¦       
+¦   ¦   +---a1
+¦   ¦   ¦       d6133e377e83a07296af39887b7d845442d919
+¦   ¦   ¦       dc12516256edee510f029f84769c928ed9e471
+¦   ¦   ¦       
+¦   ¦   +---a2
+¦   ¦   ¦       0d261cb4e84841809aa255b44d1f4acbd378b3
+¦   ¦   ¦       
+¦   ¦   +---a4
+¦   ¦   ¦       cfa482da7920b8686d0c319960f8e7c9566b1d
+¦   ¦   ¦       
+¦   ¦   +---a6
+¦   ¦   ¦       3adc3abbefabf7e408654062f75f5f33d16bdc
+¦   ¦   ¦       
+¦   ¦   +---aa
+¦   ¦   ¦       9dc9df82d5fa39ff2f3a5678a809e8a90b9096
+¦   ¦   ¦       ba36c7de8d480a2662c879bfe891973115dbc5
+¦   ¦   ¦       
+¦   ¦   +---ad
+¦   ¦   ¦       3603f4e304f459f223775ce5469f4360c7265d
+¦   ¦   ¦       
+¦   ¦   +---b2
+¦   ¦   ¦       bac30843e134e62c4f0d852937b451e17b6689
+¦   ¦   ¦       
+¦   ¦   +---b4
+¦   ¦   ¦       90314fc169a886239519a09fde2fd6d95060e9
+¦   ¦   ¦       
+¦   ¦   +---ba
+¦   ¦   ¦       09cc7e60fe4f5868a579255399d7d441119f34
+¦   ¦   ¦       d21f946051cd66541ffbbf031746351fa8338b
+¦   ¦   ¦       
+¦   ¦   +---bd
+¦   ¦   ¦       2e46226073ccdecbd02358d1aa97d47bb30e6a
+¦   ¦   ¦       
+¦   ¦   +---be
+¦   ¦   ¦       9786ebe7b661624f93a5666a20274438d7f696
+¦   ¦   ¦       
+¦   ¦   +---bf
+¦   ¦   ¦       d31d2b9ae2513496ed8d14912788610bc182d1
+¦   ¦   ¦       
+¦   ¦   +---c5
+¦   ¦   ¦       82d9a76a5eb8fa24ff59ad59b30295bf78d011
+¦   ¦   ¦       acef89efd562d3ac4496b06a99b59a87d69871
+¦   ¦   ¦       
+¦   ¦   +---c8
+¦   ¦   ¦       c92e8f643ef0a27427e54b3de28851686f86ca
+¦   ¦   ¦       
+¦   ¦   +---cb
+¦   ¦   ¦       186255192a6362d6d60f66b55a60fda27f9c49
+¦   ¦   ¦       
+¦   ¦   +---cc
+¦   ¦   ¦       4a17077493dd0b08df0327643446c1dc233de7
+¦   ¦   ¦       
+¦   ¦   +---ce
+¦   ¦   ¦       761b3de48fe50d91555ea5440c2093b7456ea6
+¦   ¦   ¦       
+¦   ¦   +---d0
+¦   ¦   ¦       2120b9e8a4efce55c3900f560dfe974a15e0d1
+¦   ¦   ¦       
+¦   ¦   +---d2
+¦   ¦   ¦       d05f5acea25b5d3da6fd7a98c05495dea2dc38
+¦   ¦   ¦       
+¦   ¦   +---da
+¦   ¦   ¦       bef38a5de6ae9084ad5014ac93dcf5b0da83fe
+¦   ¦   ¦       
+¦   ¦   +---db
+¦   ¦   ¦       7c7326b621969f4578cc2bde007787222c9cea
+¦   ¦   ¦       
+¦   ¦   +---dc
+¦   ¦   ¦       a652bc0f77da5d36fa7b34e0013f94b308b1e8
+¦   ¦   ¦       f17e8faf290bb9d5ba6633c841c4939219fc6b
+¦   ¦   ¦       
+¦   ¦   +---df
+¦   ¦   ¦       e0770424b2a19faf507a501ebfc23be8f54e7b
+¦   ¦   ¦       
+¦   ¦   +---e2
+¦   ¦   ¦       19a75b635d33fd0dbe5035d2c97a41ad187678
+¦   ¦   ¦       e813acd76efc64b8c2335411e66f1f3fb859c1
+¦   ¦   ¦       
+¦   ¦   +---e3
+¦   ¦   ¦       b89a55f7d5785b3250a8ff36ce7843cfb5da26
+¦   ¦   ¦       
+¦   ¦   +---e4
+¦   ¦   ¦       1c5c775bae3858740bd5cb3ae0b7103f85687f
+¦   ¦   ¦       
+¦   ¦   +---e8
+¦   ¦   ¦       17c9adb02d414d3db8bb90d0f07110c6488c19
+¦   ¦   ¦       2cf998f0939d928b305ac41752fd6bf0d2b6b6
+¦   ¦   ¦       
+¦   ¦   +---eb
+¦   ¦   ¦       4a0630d8349c506043923d648d892567bef3e8
+¦   ¦   ¦       
+¦   ¦   +---ee
+¦   ¦   ¦       5e74a40dd02a698a061ae6688ef60b4f5fba2c
+¦   ¦   ¦       
+¦   ¦   +---f5
+¦   ¦   ¦       70bf5812b8f701d086c1a7746c37585889aa8e
+¦   ¦   ¦       
+¦   ¦   +---f6
+¦   ¦   ¦       34f300188ef25529b5f8b7ee37dc78a54c9b23
+¦   ¦   ¦       434f1b87e2ef742c3359277c3367caa3877f5c
+¦   ¦   ¦       ef2ab0f79526fec9738bf900cf6b828846490b
+¦   ¦   ¦       
+¦   ¦   +---f7
+¦   ¦   ¦       ef4902b0b7df5d1a4f9f81968c83871fc6714e
+¦   ¦   ¦       
+¦   ¦   +---f9
+¦   ¦   ¦       f4fd0f67a64c5b57e306350dd9c62401814841
+¦   ¦   ¦       
+¦   ¦   +---fa
+¦   ¦   ¦       0caa736b6fad890f79163c81901ea943760e1d
+¦   ¦   ¦       
+¦   ¦   +---fb
+¦   ¦   ¦       448d2a5e2039812f1d517f6ab9eaeb0a7aa0b1
+¦   ¦   ¦       
+¦   ¦   +---info
+¦   ¦   +---pack
+¦   +---refs
+¦       +---heads
+¦       ¦       main
+¦       ¦       
+¦       +---remotes
+¦       ¦   +---origin
+¦       ¦           HEAD
+¦       ¦           main
+¦       ¦           
+¦       +---tags
++---.vscode
+¦       settings.json
+¦       
++---assets
+¦   +---fonts
+¦   ¦   +---blue_cashews
+¦   ¦   ¦       Blue_Cashews.otf
+¦   ¦   ¦       
+¦   ¦   +---campus
+¦   ¦   ¦       campus.ttf
+¦   ¦   ¦       
+¦   ¦   +---creato_display
+¦   ¦   ¦       creatodisplay.otf
+¦   ¦   ¦       
+¦   ¦   +---day_roman
+¦   ¦   ¦       dayroman.ttf
+¦   ¦   ¦       
+¦   ¦   +---kenyan_coffee
+¦   ¦   ¦       kenyancoffee.otf
+¦   ¦   ¦       
+¦   ¦   +---modestic_sans
+¦   ¦   ¦       modesticsans.ttf
+¦   ¦   ¦       
+¦   ¦   +---nexa_rust_sans
+¦   ¦           nexarustsans.ttf
+¦   ¦           
+¦   +---gifs
+¦   ¦       hugs.gif
+¦   ¦       thewall.gif
+¦   ¦       
+¦   +---imgs
+¦   ¦   ¦   logo.ico
+¦   ¦   ¦   logo.png
+¦   ¦   ¦   theme.png
+¦   ¦   ¦   
+¦   ¦   +---profiles
+¦   ¦           bailey.jpg
+¦   ¦           
+¦   +---videos
+¦           campus_board.mp4
+¦           side_pull.mp4
+¦           slab.mp4
+¦           
++---css
+¦       darkmode.css
+¦       lightmode.css
+¦       
++---js
+        data.js
+        script.js
+        
