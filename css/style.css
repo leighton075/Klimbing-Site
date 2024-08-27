@@ -72,7 +72,7 @@
   }
   
   .navbar-toggler-icon {
-    background-color: var(--color-content-text); /* Change this to your desired color */
+    background-color: var(--color-content-text);
   }
   
   .card {
@@ -218,7 +218,3 @@
     -ms-overflow-style: none;
     scrollbar-width: none;
   }
-  
-.light-mode {
-    background-color: #FFFFFF;
-}
