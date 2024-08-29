@@ -29,7 +29,7 @@
   /* Custom color palette */
   --color-background: #131313; /* Page Main Background */
   --color-foreground: #262626; /* Page Foreground */
-  --color-footer: #262626; /* Page Footer */
+  --color-footer: #6f6f6f; /* Page Footer */
   --color-link-text: #8b8b8b; /* Link Text */
   --color-link-text-hover: #4A4A4A; /* Link Text Hover */
   --color-content-text: #F9F9F9; /* Content Text */
@@ -72,7 +72,7 @@ section {
 }
 
 .navbar-toggler-icon {
-  background-color: var(--color-content-text); /* Change this to your desired color */
+  background-color: var(--color-content-text);
 }
 
 .card {
@@ -84,7 +84,7 @@ section {
 /* Footer styles */
 footer {
   background-color: var(--color-foreground);
-  color: var(--font-footer);
+  color: var(--color-footer);
   text-align: center;
   font-family: var(--font-footer);
   font-size: 70%;
