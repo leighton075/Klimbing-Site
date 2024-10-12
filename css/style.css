@@ -6,6 +6,11 @@
 
 @font-face {
   font-family: 'title';
+  src: url('../assets/fonts/nexa_rust_sans/nexarustsans.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'subtitle';
   src: url('../assets/fonts/pasthelo/pasthelo.otf') format('opentype');
 }
 
@@ -25,12 +30,13 @@
   --font-title: 'title', Arial, sans-serif;
   --font-content: 'content', Arial, sans-serif; 
   --font-buttons: 'buttons', Arial, sans-serif;
+  --font-subtitle: 'subtitle', Arial, sans-serif;
   
   /* Custom color palette */
-  --color-background: #fdfbfe; /* Page Main Background */
+  --color-background: #4f4355; /* Page Main Background */
   --color-foreground: #282c34; /* Page Foreground */
   --color-footer: #6f6f6f; /* Page Footer */
-  --color-link-text: #3c6480; /* Link Text */
+  --color-link-text: #cdcdcd; /* Link Text */
   --color-link-text-hover: #32485a; /* Link Text Hover */
   --color-content-text: #e6e6e6; /* Content Text */
   --color-title-text: #e6e6e6; /* Title Text */
@@ -59,6 +65,10 @@ header {
   margin-bottom: -10vh;
 }
 
+#subtitle {
+  font-family: var(--font-subtitle);
+}
+
 h2 {
   padding: 10px;
   font-family: var(--font-buttons);
@@ -78,6 +88,11 @@ section {
 .card {
   margin-bottom: 25px;
   background-color: var(--color-foreground);
+  color: var(--color-content-text);
+}
+
+#album-title {
+  font-family: var(--font-subtitle);
   color: var(--color-content-text);
 }
 
