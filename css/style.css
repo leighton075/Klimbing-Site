@@ -24,6 +24,11 @@
   src: url('../assets/fonts/bianca_lovely/bianca_lovely.otf') format('opentype');
 }
 
+@font-face {
+  font-family: 'table-title';
+  src: url('../assets/fonts/bianca_lovely/bianca_lovely.otf') format('opentype');
+}
+
 /* CSS Variables for fonts and colors */
 :root {
   --font-footer: 'footer', Arial, sans-serif;
@@ -31,6 +36,7 @@
   --font-content: 'content', Arial, sans-serif; 
   --font-buttons: 'buttons', Arial, sans-serif;
   --font-subtitle: 'subtitle', Arial, sans-serif;
+  --font-table-title: 'table-title', Arial, sans-serif;
   
   /* Custom color palette */
   --color-background: #4f4355; /* Page Main Background */
@@ -69,9 +75,9 @@ header {
   font-family: var(--font-subtitle);
 }
 
-h2 {
+#table-title {
   padding: 10px;
-  font-family: var(--font-buttons);
+  font-family: var(--font-table-title);
   color: var(--color-content-text);
 }
 
